@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+    
+}
+
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #f9fafb;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+/* รีเซ็ต margin และ padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* สไตล์สำหรับส่วนหัว */
+.header {
+    background-color: #4CAF50; /* สีพื้นหลังเขียว */
+    padding: 10px 20px;
+    text-align: right; /* ปุ่มอยู่ทางขวา */
+}
+
+/* ปุ่มล็อกอิน */
+.login-btn {
+    text-decoration: none;
+    color: #fff; /* สีตัวอักษร */
+    background-color: #007BFF; /* สีน้ำเงิน */
+    padding: 10px 20px;
+    border-radius: 25px; /* ขอบมน */
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+/* เอฟเฟกต์เวลาเอาเมาส์ชี้ */
+.login-btn:hover {
+    background-color: #0056b3; /* สีเข้มขึ้น */
+    transform: scale(1.1); /* ขยายขนาดเล็กน้อย */
+}
+
+/* สไตล์สำหรับเนื้อหา */
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
